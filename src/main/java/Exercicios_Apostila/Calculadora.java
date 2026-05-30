@@ -1,4 +1,4 @@
-package Projetos;
+package Exercicios_Apostila;
 
 public class Calculadora {
       static void main(String[] args) {

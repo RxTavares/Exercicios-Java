@@ -1,1 +1,1 @@
-Projetos e exercicios em Java
+Exercicios_Apostila e exercicios em Java

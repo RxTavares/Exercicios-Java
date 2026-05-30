@@ -1,4 +1,4 @@
-package Projetos;
+package Exercicios_Apostila;
 
 public class Estruturas_condicionais {
     static void main(String[] args) {
