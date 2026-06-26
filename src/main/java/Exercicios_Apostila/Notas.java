@@ -22,7 +22,7 @@ public class Notas {
             System.out.println("Nota final " + String.format("%.2f",Nota_final));
             System.out.println("Aprovado");
         } else {
-            System.out.println("Reprovado");
+            System.out.println("Reprovado! Se esforce!!");
         }
     }
 }
