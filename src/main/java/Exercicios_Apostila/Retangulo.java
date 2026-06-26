@@ -22,5 +22,6 @@ public class Retangulo {
         System.out.println("Perimetro: " + String.format("%.2f",perimetro));
         System.out.println("Diagonal: " + Math.round(Diagonal));
 
+
     }
 }
