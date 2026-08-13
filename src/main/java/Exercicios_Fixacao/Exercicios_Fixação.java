@@ -1,6 +1,5 @@
-package Exercicios_Apostila;
+package Exercicios_Fixacao;
 
-import java.awt.color.ProfileDataException;
 import java.util.Locale;
 import java.util.Scanner;
 

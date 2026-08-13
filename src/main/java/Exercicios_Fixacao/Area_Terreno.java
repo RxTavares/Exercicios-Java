@@ -1,4 +1,4 @@
-package Exercicios_Apostila;
+package Exercicios_Fixacao;
 
 import java.util.Scanner;
 import java.util.Locale;

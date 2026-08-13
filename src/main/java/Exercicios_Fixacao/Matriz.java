@@ -1,4 +1,4 @@
-package Exercicios_Apostila;
+package Exercicios_Fixacao;
 
 public class Matriz {
     public static void main( String[] args ) {
@@ -20,5 +20,4 @@ public class Matriz {
         }
 
     }
-
 }
