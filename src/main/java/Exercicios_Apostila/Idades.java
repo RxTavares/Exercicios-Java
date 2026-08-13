@@ -3,31 +3,36 @@ package Exercicios_Apostila;
 import java.util.Locale;
 import java.util.Scanner;
 
-    public class Idades {
+    public class  Idades {
         public static void main(String[] args) {
             Locale.setDefault(Locale.US);
 
-            Scanner sc = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
+            int[] notas = new int [5];
 
-            System.out.println("Dados da primeira pessoa ");
-            System.out.print("Nome: ");
-            String nome = sc.nextLine();
-            System.out.print("idade: ");
-            int idade = sc.nextInt();
+            //Preenchendo o vetor com dados do usuário
+            for(int i = 0;i < notas.length;i++){
+                System.out.print("Digite a nota" + (i+1) + ": ");
+                notas[i] = scanner.nextInt();
+            }
 
-            sc.nextLine();
+            //Mostrando o que foi digitado
 
-            System.out.println("Dados da segunda pessoa ");
-            System.out.print("Nome: ");
-            String nome2 = sc.nextLine();
-            System.out.print("idade: ");
-            int idade2 = sc.nextInt();
+            System.out.println("\nNotas digitadas: ");
+            for(int i = 0;i < notas.length;i++){
+                System.out.println("Nota " + (i+1) + ": " + notas[i]);
+            }
 
-            int media=(idade+idade2)/2;
+            //Calculando a soma da média
+            int soma = 0;
+            for(int i = 0;i < notas.length;i++){
+                soma = soma + notas [i];
+            }
 
-            System.out.print("A idade media de " + nome + "e" + nome2 + "é de " + media + "anos" );
+            double media = soma / (double)notas.length;
 
+            System.out.println("\nMedia: " + media);
 
-
+            scanner.close();
         }
 }
