@@ -1,22 +1,25 @@
 package Exercicios_Fixacao;
 
-import java.util.Locale;
-import java.util.Scanner;
-
 public class Exercicios_Fixação {
     public static void main(String[] args) {
 
-        Locale.setDefault(Locale.US);
-        Scanner sc = new Scanner(System.in);
+        String texto = "rafael tavares de carvalho barbosa";
+        String palavra = "";
 
-        int A = sc.nextInt();
-        int B = sc.nextInt();
+        char caracter;
 
-        int PROD =  A * B;
-
-        System.out.println("PROD = " + PROD);
-
-
+        for ( int i=0;i<texto.length();i++){
+            caracter = texto.charAt(i);
+            if (caracter == ' '){
+                System.out.println("É um espaço");
+                System.out.println(palavra);
+                palavra = "";
+            }else{
+                palavra += caracter;
+            }
+        }
+        System.out.println(palavra);
+        palavra="";
 
     }
 }
