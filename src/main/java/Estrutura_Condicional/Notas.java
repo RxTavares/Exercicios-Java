@@ -1,4 +1,4 @@
-package Exercicios_Fixacao;
+package Estrutura_Condicional;
 
 import java.util.Locale;
 import java.util.Scanner;

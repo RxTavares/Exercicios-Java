@@ -1,6 +1,6 @@
-package Exercicios_Fixacao;
+package Estrutura_Condicional;
 
-public class Estruturas_condicionais {
+public class Maior_ou_Menor {
     static void main(String[] args) {
         // If,else
         int x = 5;
