@@ -1,6 +1,6 @@
 package Exercicios_Fixacao;
 
-public class Exercicios_Fixação {
+public class Metodos {
     public static void main(String[] args) {
 
         String texto = "rafael tavares de carvalho barbosa";
